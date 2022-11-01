@@ -1,6 +1,8 @@
 # Stroke-based-painting
 Repository for the survey on stroke-based painterly rendering algorithms
 
+_Note:_ Not all GitHub links are the official implementations!
+
 ## Greedy heuristics
 __Edge alignment:__  Align stroke direction with edges and contours of image.
 
@@ -22,7 +24,7 @@ Painterly rendering with curved brush strokes of multiple sizes | Low-level edge
 Image and video based painterly animation | Low-level edge alignment | 
 Painterly rendering controlled by multiscale image features | Low-level edge alignment | 
 Interactive painterly stylization of images, videos and 3D animations | Low-level edge alignment | 
-Contour-driven Sumi-e rendering of real photos | Low-level edge alignment | 
+Contour-driven Sumi-e rendering of real photos | Low-level edge alignment | Connected to [Artist Agent](https://arxiv.org/abs/1206.4634)
 Painterly rendering with content-dependent natural paint strokes | Low-level edge alignment | 
 Painterly rendering using image salience | High-level edge alignment | 
 Abstracted painterly renderings using eye-tracking data | High-level edge alignment | 
@@ -93,15 +95,15 @@ Name  | Architecture | Notes / Description
 ------------- | ------------- | -
 Unsupervised image to sequence translation with canvas-drawer networks | Supervised learning | [[Unofficial code]](https://github.com/wgoldie/canvasdrawer)
 Strokenet: A neural painting environment | Supervised learning | [[Code]](https://github.com/vexilligera/strokenet)
-Paint transformer: Feed forward neural painting with stroke prediction | Supervised learning | 
-Synthesizing programs for images using reinforced adversarial learning ("SPIRAL") | Model-free DRL | 
-Unsupervised doodling and painting with improved spiral ("SPIRAL++")| Model-free DRL | 
+Paint transformer: Feed forward neural painting with stroke prediction | Supervised learning | [[Code]](https://github.com/Huage001/PaintTransformer)
+Synthesizing programs for images using reinforced adversarial learning ("SPIRAL") | Model-free DRL | [[Code]](https://github.com/deepmind/spiral)
+Unsupervised doodling and painting with improved spiral ("SPIRAL++")| Model-free DRL | [[Unofficial code]](https://github.com/urw7rs/spiralpp)
 Paintbot: A reinforcement learning approach for natural media painting | Model-free DRL | 
 LpaintB: Learning to paint from self-supervision | Model-free DRL | 
 Learning to paint with model-based deep reinforcement learning | Model-based DRL | [[Code]](https://github.com/megvii-research/ICCV2019-LearningToPaint)
 Demystify Painting with RL | Model-based DRL | 
 Content masked loss: Human-like brush stroke planning in a reinforcement learning painting agent | Model-based DRL | [[Code]](https://github.com/pschaldenbrand/ContentMaskedLoss)
-Combining semantic guidance and deep reinforcement learning for generating human level paintings | Model-based DRL | 
+Combining semantic guidance and deep reinforcement learning for generating human level paintings | Model-based DRL | [[Code]](https://github.com/1jsingh/semantic-guidance)
 Intelli-Paint: Towards Developing Human-like Painting Agents | Model-based DRL | 
 
 ## Video painting
